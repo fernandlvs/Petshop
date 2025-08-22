@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#logo-principal {
+    width: 100px;
+}
+
+
+.conteiner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #FFFFE0;
+}
+
+.esquerda {
+  display: flex;
+  align-items: center;
+  gap: 120px; 
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+}
+
+.conteiner li a {
+    color: #5a3527;
+    
+}
+
+.tela-principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 150px;
+    gap: 50px;
+    background-color: #FFFFE0;
+}
+
+#imagem-de-fundo {
+    display: flex;
+    width: 520px;
+}
+
+.texto-principal {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.texto-principal h4, .texto-maior h4 {
+    color: #94dbdf;
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.texto-principal h1, .texto-maior h1 {
+    font-size: 3rem;
+    color: #5a3527;
+    margin-bottom: 15px;
+}
+
+.texto-principal h1 span {
+    color: #fab885;
+}
+
+.texto-principal p, .texto-maior p {
+    color: #5a3527;
+    margin-bottom: 20px;
+    line-height: 1.7;
+}
+
+button {
+    background-color: #7ec8e3; /* mais vibrante */
+    color: white;
+    border-radius: 30px;
+    padding: 12px 24px;
+    font-weight: bold;
+    transition: 0.3s;
+    border: #7ec8e3;
+}
+
+button a {
+    color: #5a3527;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background-color: #5db1cc;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.card1, .card2, .card3 {
+    margin: 50px;
+    padding-top: 20px;
+    background-color: #fff;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    text-align: center;
+    border-top: solid #94dbdf 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.card1 {
+    border-top: solid #dab7a0 5px;
+}
+
+.card2 {
+    border-top: solid #94dbdf 5px;
+}
+
+.card3 {
+    border-top: solid #fab885 5px;
+}
+
+.cards p {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 20px;
+}
+
+#medalha-de-ouro, #estetoscopio, #patinha-de-cachorro {
+    width: 100px;
+    
+}
+
+.terceira-pagina {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#animais-e-numeros {
+    width: 700px;
+}
+
+.texto-maior {
+    padding-left: 100px;
+    padding-right: 60px;
+}
+
+.card4, .card5, .card6 {
+    background-color: #f8f8ff;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    border-bottom: solid #94dbdf 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin-top: 30px;
+}
+
+.card5 {
+    border-bottom: solid #fab885 5px;
+}
+
+.card6 {
+    border-bottom: solid #a37666 5px;
+}
